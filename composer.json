@@ -1,0 +1,21 @@
+{
+  "name": "worteks/yii2auth-oidc",
+  "description": "OIDC connector for yii2-authclient",
+  "keywords": ["yii2", "authclient", "oauth2", "openid-connect", "openidconnect"],
+  "homepage": "http://github.com/Worteks/yii2auth-oidc",
+  "require": {
+    "yiisoft/yii2-authclient": "~2.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Soisik Froger (Worteks)",
+      "email": "soisik.froger@worteks.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "worteks\\yii\\authclient\\": "src"
+    }
+  }
+}
