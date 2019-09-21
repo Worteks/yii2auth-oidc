@@ -58,6 +58,6 @@ Example application configuration:
 | tokenUrl        | no        | '/oauth2/token'        | Token Endpoint                             |
 | apiBaseUrl      | no        | '/oauth2'              | Base for Userinfo Endpoint                 |
 | userInfoUrl     | no        | 'userinfo'             | Userinfo Endpoint                          |
-| scope           | no        | 'openid profile email' | What access privileges are being requested |
+| scope           | yes       | 'openid profile email' | What access privileges are being requested |
 | defaultName     | no        | Yii auth client id     | Auth service name to use in DB record, CSS |
 | defaultTitle    | no        | Yii auth client id     | Auth service title to display in views     |
