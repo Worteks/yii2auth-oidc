@@ -106,8 +106,7 @@ class OIDC extends OAuth2
         throw new Exception('Invalid access token.');
       }
       $headers = [
-        'Authorization' => 'Bearer ' . $this->getAccessToken()->getToken(),
-        'Content-Type:' => 'application/json'
+        'Authorization' => 'Bearer ' . $this->getAccessToken()->getToken()
       ];
       return $this->api($this->userInfoUrl, 'GET', [], $headers);
     }
