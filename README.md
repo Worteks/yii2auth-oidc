@@ -20,7 +20,7 @@ php composer.phar require worteks/yii2auth-oidc
 or add
 
 ```json
-"worteks/yii2auth-oidc": "~0.1"
+"worteks/yii2auth-oidc": "~0.2"
 ```
 
 to the `require` section of your composer.json.
